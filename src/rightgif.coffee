@@ -1,4 +1,14 @@
+# Description:
+#   Pulls gifs from rightgif.com
+#
+# Commands:
+#   hubot gif [me] <search term>
+#
+# Author:
+#   fuadsaud
+
 module.exports = (bot) ->
+
   bot.respond /gif( me)? (.+)/i, (msg) ->
    rightGif msg, msg.match[2], (url) ->
      msg.send url
