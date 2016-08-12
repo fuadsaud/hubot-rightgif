@@ -1,9 +1,9 @@
 module.exports = (bot) ->
   bot.respond /gif( me)? (.+)/i, (msg) ->
-   rightGif msg.match[2], (url) ->
+   rightGif msg, msg.match[2], (url) ->
      msg.send url
 
-rightGif = (query, cb) ->
+rightGif = (msg, query, cb) ->
   url = 'https://rightgif.com/search/web'
 
   msg.http(url)
