@@ -7,6 +7,7 @@ rightGif = (msg, query, cb) ->
   url = 'https://rightgif.com/search/web'
 
   msg.http(url)
+    .header('Content-Type', 'application/json')
     .post(text: query) (err, res, body) ->
       if err or res.statusCode isnt 200
         msg.send 'I got an error from rightgif :()'
