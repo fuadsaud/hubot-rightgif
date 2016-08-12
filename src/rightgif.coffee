@@ -14,4 +14,4 @@ rightGif = (msg, query, cb) ->
         msg.send 'I got an error from rightgif :('
         return
 
-      msg.send JSON.parse(response).url
+      msg.send JSON.parse(res).url
