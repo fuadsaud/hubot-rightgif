@@ -1,8 +1,14 @@
 # Description:
 #   Pulls gifs from rightgif.com
 #
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
 # Commands:
-#   hubot gif [me] <search term>
+#   gif [me] <search term> - Get the right gif for the search term
 #
 # Author:
 #   fuadsaud
