@@ -1,6 +1,6 @@
 {
   "name": "hubot-rightgif",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "rightgif.com commands for hubot",
   "main": "src/rightgif.coffee",
   "scripts": {
