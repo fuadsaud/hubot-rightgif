@@ -1,0 +1,16 @@
+{
+  "name": "hubot-rightgif",
+  "version": "0.1.0",
+  "description": "rightgif.com commands for hubot",
+  "main": "src/rightgif.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubot",
+    "gif",
+    "rightgif"
+  ],
+  "author": "Fuad Saud <fuadfsaud@gmail.com>",
+  "license": "ISC"
+}
